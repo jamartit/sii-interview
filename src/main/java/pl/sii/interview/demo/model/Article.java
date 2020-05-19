@@ -6,7 +6,7 @@ public class Article {
 
     private String title;
     private String description;
-    private boolean publihed;
+    private boolean published;
     private String someOtherField;
 
     private List<Comment> comments;
