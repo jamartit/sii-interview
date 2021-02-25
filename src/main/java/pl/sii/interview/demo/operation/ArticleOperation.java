@@ -15,7 +15,7 @@ public class ArticleOperation implements Operation {
     }
 
     @Override
-    public List<Article> resolveForPublishedArticles(List<Article> sourceArticles) {
+    public List<Article> resolveArticlesByKeyword(List<Article> sourceArticles, String keyword) {
         return null;
     }
 

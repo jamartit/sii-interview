@@ -10,7 +10,7 @@ public interface Operation {
 
     List<Article> resolveArticlesWithTitleInDescription(List<Article> sourceArticles);
 
-    List<Article> resolveForPublishedArticles(List<Article> sourceArticles);
+    List<Article> resolveArticlesByKeyword(List<Article> sourceArticles, String keyword);
 
     List<String> resolveArticleTitles(List<Article> sourceArticles);
 
